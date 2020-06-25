@@ -5,7 +5,5 @@ public class AdressePostale {
 	public String libelleRue;
 	public int codePostale;
 	public String ville;
-		
-
 
 }
