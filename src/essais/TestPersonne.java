@@ -20,12 +20,12 @@ public class TestPersonne {
 		Personne personne1 = new Personne();
 		personne1.nom = "Ali";
 		personne1.prenom = "Bao";
-		personne1.adressePostale = "adresse1";
+		personne1.adresse = "adresse1";
 		
 		Personne personne2 = new Personne();
 		personne2.nom = "Madi";
 		personne2.prenom = "Humadi";
-		personne2.adressePostale = "adresse2";
+		personne2.adresse = "adresse2";
 	}
 
 }
