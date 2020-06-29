@@ -14,6 +14,15 @@ public class Compte {
 	}
 	
 	/*
+	 * Redéfinition de méthode
+	 * @return String
+	 */
+	//@override(ne marche pas)
+	public String toString() {
+		return "Le numéro de compte est " + numeroCompte + " et le solde du compte est " + soldeCompte;
+	}
+	
+	/*
 	 * Règles d'encapsulation
 	 */
 	public String getNumeroCompte() {
